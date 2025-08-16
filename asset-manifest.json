@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/simin_personal_site/static/css/main.c2a0ee1a.css",
+    "main.css": "/simin_personal_site/static/css/main.b6e8280c.css",
     "main.js": "/simin_personal_site/static/js/main.519aa8e8.js",
     "static/media/landing_page_background.png": "/simin_personal_site/static/media/landing_page_background.9f96f43facfc8b5a8460.png",
     "static/media/about_me_photo.jpeg": "/simin_personal_site/static/media/about_me_photo.53d8e3cc65c408994f8f.jpeg",
@@ -9,11 +9,11 @@
     "static/media/family_and_children_practice_group.png": "/simin_personal_site/static/media/family_and_children_practice_group.a6aca72304eb7769c0a0.png",
     "static/media/learn_more.png": "/simin_personal_site/static/media/learn_more.2547347b126572a21a39.png",
     "index.html": "/simin_personal_site/index.html",
-    "main.c2a0ee1a.css.map": "/simin_personal_site/static/css/main.c2a0ee1a.css.map",
+    "main.b6e8280c.css.map": "/simin_personal_site/static/css/main.b6e8280c.css.map",
     "main.519aa8e8.js.map": "/simin_personal_site/static/js/main.519aa8e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2a0ee1a.css",
+    "static/css/main.b6e8280c.css",
     "static/js/main.519aa8e8.js"
   ]
 }
