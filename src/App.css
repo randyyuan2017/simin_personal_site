@@ -10,7 +10,7 @@
 .App {
   display: flex;
   min-height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Manrope', sans-serif;
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
