@@ -95,6 +95,11 @@
   object-fit: cover;
 }
 
+/* Default styles for project content */
+.project-content {
+  display: block;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .sidebar {
@@ -104,5 +109,23 @@
     border-bottom: 1px solid #e0e0e0;
     height: auto; /* Allow the sidebar to adjust its height based on content */
     overflow-y: visible; /* Don't constrain scrolling within the sidebar */
+  }
+}
+
+/* Large screen adjustments - only apply when width is greater than 1928px */
+@media (min-width: 1929px) {
+  .project-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .project-thumbnail {
+    margin-top: 0;
+    margin-left: 15px;
+    max-width: 120px;
+  }
+  
+  .family-services-thumbnail {
+    margin-left: 15px;
   }
 }

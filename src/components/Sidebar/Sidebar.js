@@ -14,24 +14,30 @@ function Sidebar() {
           <div className="subtitle">(most recent to least recent)</div>
           
           <div className="project-item">
-            <div className="project-number">03/</div>
-            <div className="project-title">E-commerce Shop Design /</div>
-            <div className="project-thumbnail">
-              <img src={ellisMarket} alt="Ellie's Market" />
+            <div className="project-content">
+              <div className="project-number">03/</div>
+              <div className="project-title">E-commerce Shop Design /</div>
+              <div className="project-thumbnail">
+                <img src={ellisMarket} alt="Ellie's Market" />
+              </div>
             </div>
           </div>
           
           <div className="project-item">
-            <div className="project-number">02/</div>
-            <div className="project-title">Website Redesign /</div>
-            <div className="project-thumbnail family-services-thumbnail">
-              <img src={familyServices} alt="Family Services Group" />
+            <div className="project-content">
+              <div className="project-number">02/</div>
+              <div className="project-title">Website Redesign /</div>
+              <div className="project-thumbnail family-services-thumbnail">
+                <img src={familyServices} alt="Family Services Group" />
+              </div>
             </div>
           </div>
           
           <div className="project-item">
             <div className="project-number">01/</div>
-            <div className="project-title">Healthcare Navigation Platform for Newcomers in BC</div>
+            <div className="project-content">
+              <div className="project-title">Healthcare Navigation Platform for Newcomers in BC</div>
+            </div>
           </div>
         </div>
         
