@@ -1,0 +1,46 @@
+/* Hero Section with Background Image */
+.hero-section {
+  height: 90vh;
+  min-height: 600px;
+  max-height: 800px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+
+/* Text overlay for the Mac screen */
+.mac-screen-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mac-screen-text h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.mac-screen-text p {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 60vh;
+    min-height: 500px;
+  }
+}
