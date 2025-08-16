@@ -15,7 +15,7 @@ function AboutSection() {
         
         <div className="about-right-column">
           <div className="about-content">
-            <h3>Hi, I'm Simin — a brand and UX designer.</h3>
+            <p>Hi, I'm Simin — a brand and UX designer.</p>
             
             <p>I help small businesses express their brand voice and create engaging digital experiences.</p>
             

@@ -34,8 +34,8 @@ function Sidebar() {
           </div>
           
           <div className="project-item">
-            <div className="project-number">01/</div>
             <div className="project-content">
+              <div className="project-number">01/</div>
               <div className="project-title">Healthcare Navigation Platform for Newcomers in BC</div>
             </div>
           </div>

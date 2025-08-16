@@ -16,7 +16,7 @@
 }
 
 .nav-section {
-  margin-bottom: 30px;
+  margin-bottom: 48px;
 }
 
 .nav-section h2 {
@@ -32,8 +32,9 @@
 }
 
 .project-item {
-  margin-bottom: 15px;
+  margin-bottom: 38px;
   cursor: pointer;
+  margin-left: 15px;
 }
 
 .project-number {
