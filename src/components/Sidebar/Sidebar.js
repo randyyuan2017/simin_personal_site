@@ -41,9 +41,11 @@ function Sidebar() {
         </div>
         
         <div className="nav-section">
-          <h2>About</h2>
-          <div className="profile-pic">
-            <img src={require('../../media/about_me_photo.jpeg')} alt="Profile" />
+          <div className="about-header">
+            <h2>About</h2>
+            <div className="profile-pic">
+              <img src={require('../../media/about_me_photo.jpeg')} alt="Profile" />
+            </div>
           </div>
         </div>
       </nav>
