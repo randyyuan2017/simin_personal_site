@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
-import ellisMarket from '../../media/ellis_market.png';
-import familyServices from '../../media/family_and_children_practice_group.png';
+import ellisMarket from '../../media/home_page/ellis_market.png';
+import familyServices from '../../media/home_page/family_and_children_practice_group.png';
 
 function Sidebar() {
   return (
@@ -50,7 +50,7 @@ function Sidebar() {
           <div className="about-header">
             <h2>About</h2>
             <div className="profile-pic">
-              <img src={require('../../media/about_me_photo.jpeg')} alt="Profile" />
+              <img src={require('../../media/home_page/about_me_photo.jpeg')} alt="Profile" />
             </div>
           </div>
         </div>

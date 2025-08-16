@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
-import landingPageBackground from '../../../media/landing_page_background.png';
+import landingPageBackground from '../../../media/home_page/landing_page_background.png';
 
 function HeroSection() {
   return (

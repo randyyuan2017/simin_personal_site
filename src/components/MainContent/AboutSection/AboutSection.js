@@ -1,8 +1,8 @@
 import React from 'react';
 import './AboutSection.css';
-import learnMoreImg from '../../../media/learn_more.png';
-import collabImg from '../../../media/collab.png';
-import aboutMeImg from '../../../media/about_me.png';
+import learnMoreImg from '../../../media/home_page/learn_more.png';
+import collabImg from '../../../media/home_page/collab.png';
+import aboutMeImg from '../../../media/home_page/about_me.png';
 
 function AboutSection() {
   return (
