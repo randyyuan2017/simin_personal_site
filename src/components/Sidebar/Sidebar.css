@@ -12,6 +12,14 @@
   font-size: 29px;
   margin-bottom: 40px;
   color: var(--text-color);
+  cursor: pointer;
+  transition: color 0.2s ease;
+  text-decoration: none;
+  display: block;
+}
+
+.logo:hover {
+  color: #ff69b4;
 }
 
 .nav-section {
@@ -34,6 +42,24 @@
   margin-bottom: 38px;
   cursor: pointer;
   margin-left: 15px;
+  transition: transform 0.2s ease;
+  text-decoration: none;
+  display: block;
+}
+
+.project-item:hover {
+  transform: translateX(5px);
+}
+
+.project-item:hover .project-number,
+.project-item:hover .project-title {
+  color: #ff69b4; /* Pink color on hover */
+}
+
+.project-item.active .project-number,
+.project-item.active .project-title {
+  color: #7a6f2e;
+  font-weight: bold;
 }
 
 .project-number {

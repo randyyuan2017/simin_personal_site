@@ -1,19 +1,24 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import './Sidebar.css';
 import ellisMarket from '../../media/home_page/ellis_market.png';
 import familyServices from '../../media/home_page/family_and_children_practice_group.png';
 
-function Sidebar() {
+function Sidebar({ currentPath }) {
   return (
     <div className="sidebar">
-      <div className="logo">Si Min Designs</div>
+      <Link to="/" className="logo">Si Min Designs</Link>
       
       <nav>
         <div className="nav-section">
           <h2>UX Projects</h2>
           <div className="subtitle">(most recent to least recent)</div>
           
-          <div className="project-item">
+          <Link 
+            to="/ellies-market"
+            className={`project-item ${currentPath === '/ellies-market' ? 'active' : ''}`}
+          >
             <div className="project-content">
               <div className="project-number">03/</div>
               <div className="project-title">E-commerce Shop Design /</div>
@@ -21,7 +26,7 @@ function Sidebar() {
                 <img src={ellisMarket} alt="Ellie's Market" />
               </div>
             </div>
-          </div>
+          </Link>
           
           <div className="project-item">
             <div className="project-content">
@@ -58,5 +63,9 @@ function Sidebar() {
     </div>
   );
 }
+
+Sidebar.propTypes = {
+  currentPath: PropTypes.string.isRequired
+};
 
 export default Sidebar;

@@ -1,0 +1,15 @@
+.ecommerce-shop {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ecommerce-shop h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ecommerce-shop p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
